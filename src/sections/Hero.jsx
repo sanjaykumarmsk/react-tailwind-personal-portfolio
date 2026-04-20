@@ -136,8 +136,8 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/sk_img-removebg-preview.jpg"
-                  alt="Pedro Machado"
+                  src="/sk_img.png"
+                  alt="sk image"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
