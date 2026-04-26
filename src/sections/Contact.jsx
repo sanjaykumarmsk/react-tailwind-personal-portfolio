@@ -15,19 +15,19 @@ const contactInfo = [
     icon: Mail,
     label: "Email",
     value: "sk1635050@gmail.com",
-    href: "sk1635050@gmail.com",
-  },
+    href="mailto:sk1635050@gmail.com",
+  },  
   { 
     icon: Phone,
     label: "Phone",
     value: "+91 63910 56492",
-    href: "tel:+15551234567",
+    href: "tel:+916391056492",
   },
   {
     icon: MapPin,
     label: "Location",
     value: "Uttar Pradesh, India",
-    href: "#",
+    href="https://www.google.com/maps?q=Uttar Pradesh+India",
   },
 ];
 
