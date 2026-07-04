@@ -93,17 +93,17 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-                <a href="#contact">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
-                </a>
-                <a href="https://drive.google.com/file/d/1iDuMmaUmgpbgx9KVKYzbuBgeV-F3taRA/view?usp=drive_link">
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
-                </a>
+              <a href="#contact">
+                <Button size="lg">
+                  Contact Me <ArrowRight className="w-5 h-5" />
+                </Button>
+              </a>
+              <a href="https://drive.google.com/file/d/1iDuMmaUmgpbgx9KVKYzbuBgeV-F3taRA/view?usp=drive_link">
+                <AnimatedBorderButton>
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </AnimatedBorderButton>
+              </a>
             </div>
 
             {/* Social Links */}
@@ -111,7 +111,10 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/sanjaykumarmsk/" },
-                { icon: Linkedin, href: "https://www.linkedin.com/in/sanjaykumar0001/" },
+                {
+                  icon: Linkedin,
+                  href: "https://www.linkedin.com/in/sanjaykumar0001/",
+                },
                 { icon: Twitter, href: "https://x.com/sk1635050" },
               ].map((social, idx) => (
                 <a
@@ -136,7 +139,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/sk_img.png"
+                  src="/msk_img.png"
                   alt="sk image"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
@@ -153,7 +156,7 @@ export const Hero = () => {
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                   <div className="text-2xl font-bold text-primary">1+</div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-xs text-muted-foreground text-primary">
                     Years Exp.
                   </div>
                 </div>
